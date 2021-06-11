@@ -1,271 +1,356 @@
 * {
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+.seminar{
+	color: white;
+	text-align:  center;
+	background-color: #23A9DD;
+	margin: 0px 10%;
+	width: 80%;
 }
 
-a {
-  text-decoration: none;
+#a1 {
+	color: white;
+    text-decoration: underline red;
+	font-size: 40px;
 }
 
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+#a1:hover {
+	color: black;
+    text-decoration: underline wavy red;
+    background-color: #23A9DD;
 }
 
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(top.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
+.atlas {
+	width: 100%;
 }
 
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
+.atlas-center {
+	width: 75.85%;
+	margin: 0 10%;
+	border: 30px solid silver ;
+	border-top: none;
+	border-bottom: 60px solid silver;
 }
 
-.top-wrapper p {
-  opacity: 0.7;
-  font-size: 16px;
-  margin-bottom: 40px;
+.atlas-center > p{
+	text-align: center;
+	font-weight: bold;
 }
 
-.btn-wrapper {
-  text-align: center;
+.atlas-center > h1{
+	text-align: center;
+	color: #FFD700;
+	text-shadow    :
+       2px  2px 1px #003366,
+      -2px  2px 1px #003366,
+       2px -2px 1px #003366,
+      -2px -2px 1px #003366,
+       2px  0px 1px #003366,
+       0px  2px 1px #003366,
+      -2px  0px 1px #003366,
+       0px -2px 1px #003366;
 }
 
-.btn-wrapper p {
-  margin-bottom: 20px;
+img.img1{
+	margin: 0 0 0 10%;
+	width: 40%;
+	height: 500px;
+	float: left;
 }
 
-.signup {
-  background-color: #239b76;
+.atlas-price{
+	height: 450px;
+	width: 50%;
+	padding: 100px 0 0 0;
+	text-align: center;
+	float: left;
 }
 
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
+.atlas-price > h3{
+	font-size: 30px;
+	text-align: center;
 }
 
-.twitter {
-  background-color: #55acee;
+.atlas-price > p{
+	font-size: 30px;
 }
 
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
+.atlas-price > h2{
+	font-size: 50px;
+	color: red;
+	text-align: center;
 }
 
-.btn:hover {
-  opacity: 1;
+#a2 {
+	color: black;
+    text-decoration: underline black;
+	font-size: 30px;
+	margin: 0 0 0 1%;
+	text-decoration: line-through solid black;
 }
 
-.fa {
-  margin-right: 5px;
+.atlas-pri-box{
+	margin: 0 0 40px 0;
 }
 
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34,49,52,0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
+.attention{
+	background-color: #23A9DD;
+	display: inline-block;
+	margin: 0 0 30px 26%;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
+.attention > p {
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
 }
 
-.header-left {
-  float: left;
+.img2 {
+	text-align: center;
+}
+.img2 img{
+	margin:0 auto;
 }
 
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(255,255,255,0.3);
-}
-
-.lesson-wrapper {
-  height: 580px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
-}
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
-.clear {
-  clear: left;
-}
-
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
-
-  footer {
-    text-align: center;
-  }
-}
-
-@media all and (max-width: 750px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
-}
-
-@media all and (max-width: 670px) {
-  .header-right {
+#form-area1 {
+	padding: 40px 0;
+    margin: 5em 10%;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
     display: none;
-  }
+}
+#form-area2 {
+	padding: 40px 0;
+    margin: 5em 10%;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    display: none;
+}
+#form-area3 {
+	padding: 40px 0;
+    margin: 5em 10%;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    display: none;
+}
+.formbutton {
+	text-align: center;
+}
 
-  .menu-icon {
-    display: block;
-  }
+#mainbutton1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+#mainbutton2{
+	text-align: center;
+	margin-bottom: 50px;
+}
+#mainbutton3{
+	text-align: center;
+	margin-bottom: 50px;
+}
 
-  .top-wrapper .btn {
-    width: 100%;
-  }
+.hissu {
+	background-color: red;
+	color: white;
+	border-radius: 1px;
+	margin: 0 0 0 20px;
+}
 
-  .twitter {
-    margin-top: 10px;
-  }
+.form-name {
+	margin: 0 0 50px 15%;
+	width: 35%;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 30px;
+}
 
-  .top-wrapper {
-    text-align: left;
-  }
+.form-mail {
+	margin: 0 0 50px 15%;
+	width: 70%;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 30px;
+}
 
-  .top-wrapper h1 {
-    font-size: 24px;
-  }
+#form-area1 > p {
+	font-size: 30px;
+	margin: 0 0 0 15%;
+}
+#form-area2 > p {
+	font-size: 30px;
+	margin: 0 0 0 15%;
+}
+#form-area3 > p {
+	font-size: 30px;
+	margin: 0 0 0 15%;
+}
 
-  .top-wrapper p {
-    font-size: 14px;
-  }
+#request-button {
+	font-size: 40px;
+	border-radius: 20px;
+	color: white;
+	background-color: green;
+	padding: 20px 50px;
+}
 
-  .lesson {
-    width: 100%;
-  }
+#request-button-1 {
+	font-size: 40px;
+	border-radius: 20px;
+	color: white;
+	background-color: #23A9DD;
+	padding: 20px 50px;
+}
 
-  .lesson-wrapper {
-    height: 1700px;
-  }
+.box12 {
+	padding: 0.5em 1em;
+    margin: 0 30% 50px;
+    color: black;
+    background: silver;
+    border-bottom: solid 6px gray;
+    border-radius: 9px;
+}
 
-  .message-wrapper .btn {
-    width: 100%;
-  }
+.box12 p {
+	text-align: center;
+}
+
+.main-lane {
+	width: 60%;
+	margin: 0 20%;
+}
+
+.main-text {
+	width: 60%;
+}
+
+.main-text p {
+	margin: 50px 0 0 33%;
+}
+
+.main-lane h2{
+	color: #C00000;
+	text-align: center;
+	margin: 100px 0 50px;
+	font-size: 30px;
+}
+
+.main-lane h3{
+	color: #23A9DD;
+	text-align: center;
+}
+
+.center p{
+	text-align: center;
+}
+
+.frame {
+	background-color: #23A9DD;
+	text-align: center;
+}
+
+.frame img{
+	margin: 50px 10% 0;
+	width: 80%;
+}
+
+.frame img:last-child {
+	margin-bottom: 50px;
+}
+
+.img3 {
+	text-align: center;
+}
+.img3 img{
+	margin:0 auto;
+	width: 80%;
+	height: 400px;
+	margin: 0 0 50px;
+}
+
+.list1 {
+	padding: 0.5em 1em;
+    margin: 2em 20%;
+    font-weight: bold;
+    border: solid 3px #23A9DD;
+    width: 50%;
+}
+.list1 li {
+	list-style: none;
+}
+/*.list1-style {
+	position: relative;
+	top: -15px;
+	left: 10px;
+}*/
+.list1-style img {
+	width: 20px;
+	height: 20px;
+	position: relative;
+	top: 4px;
+	right: 3px;
+}
+
+.img4 {
+	text-align: center;
+}
+
+.img4 img {
+	margin: 0 auto;
+	width: 80%;
+	height: 400px;
+	margin: 50px 0;
+}
+
+.box13 {
+	padding: 0.5em 1em;
+    margin: 0 25% 50px;
+    color: black;
+    background: silver;
+    border-bottom: solid 6px gray;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.list2 {
+	padding: 0.5em 2em;
+    margin: 2em 20%;
+    font-weight: bold;
+    border: solid 3px #23A9DD;
+    width: 50%;
+}
+
+.list3 {
+	padding: 0.5em 2em;
+    margin: 2em 20%;
+    font-weight: bold;
+    border: solid 3px #C00000;
+    width: 50%;
+}
+
+.img5 {
+	position: relative;
+	bottom: 240px;
+	left: 190px;
+	width: 30px;
+	height: 30px;
+}
+
+.img6 {
+	text-align: center;
+}
+.img6 img {
+	margin: 0 auto;
+	width: 80%;
+	height: 400px;
+	margin: 50px 0;
 }
